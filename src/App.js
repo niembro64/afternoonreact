@@ -1,12 +1,24 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Pixel from './components/Pixel';
+import Row from "./components/Row";
 
 function App() {
     return (
         <div className="App">
             <h1>Hey it's me!</h1>
-            <Pixel/>
+            <Row/>
+            <Row/>
+            <Row/>
+            <Row/>
+            <Row/>
+            <Row/>
+            <Row/>
+            <Row/>
+            <Row/>
+            <Row/>
+            <Row/>
+            <Row/>
         </div>
     );
 }

@@ -3,11 +3,17 @@
 }
 
 .pixel{
-  height: 100px;
-  width: 100px;
-  border: 2px solid black;
+  height: 50px;
+  width: 50px;
+  border: 2px solid grey;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
 }
 
 .filled{
   background-color: black;
 }
+
