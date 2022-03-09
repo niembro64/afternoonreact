@@ -11,11 +11,9 @@ class Pixel extends Component {
     onClickHandler = () => {
         console.log("Pixel Clicked");
 
-        if (this.state.filled) {
-            this.setState({ filled: false });
-        } else {
-            this.setState({ filled: true });
-        }
+        this.setState({
+            filled: this.state.filled ? false : true,
+        });
     };
 
     render() {
